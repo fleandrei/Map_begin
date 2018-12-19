@@ -45,8 +45,6 @@ def plot_value_array(i, predictions_array, true_label):
 
 
 
-
-
 #Hello world
 print("salut")
 hello = tf.constant('Hello, TensorFlow!')
@@ -54,7 +52,7 @@ sess = tf.Session()
 print(sess.run(hello))
 
 
-
+#
 fashion=keras.datasets.fashion_mnist #On utilise des jeux de données fournis par Keras appellés "fashion_mnist"
 
 #On charge ces donnnées:
